@@ -38,8 +38,8 @@
         <com.google.android.material.navigation.NavigationView
             android:id="@+id/navView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:headerLayout="@drawable/nav_header"
+            android:layout_height="match_parent"
+            app:headerLayout="@header/nav_header"
             android:layout_gravity="start"
             app:menu="@menu/navdrawer_menu"
             />
